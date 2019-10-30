@@ -24,3 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Officia voluptate enim officia exercitation cupidatat aliquip nulla occaecat Lorem proident. Fugiat ullamco ipsum culpa laborum sit. Cupidatat tempor consectetur cillum et ad sint deserunt aliquip occaecat in in eu in excepteur. Tempor nisi velit enim ipsum velit nulla officia pariatur.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: base
+  - scope:
+      type: "posts"
+    values:
+      layout: post
