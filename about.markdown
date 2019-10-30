@@ -1,18 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 'Over ons'
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Commodo pariatur velit cupidatat Lorem deserunt ad labore irure mollit aliquip. Aute sit incididunt dolor nostrud dolore do exercitation consequat reprehenderit cupidatat nostrud officia. Ea minim ipsum culpa occaecat laboris commodo id magna nostrud ut. Amet ad laboris excepteur ipsum enim exercitation esse. Culpa velit sunt ad ipsum esse et. Sunt mollit nulla ut voluptate ullamco est ut occaecat officia. Quis incididunt esse deserunt Lorem mollit reprehenderit duis Lorem velit veniam.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Pariatur aliquip consequat ipsum ipsum cupidatat ex anim nisi nisi reprehenderit laborum id. Eu dolore exercitation ipsum sint dolor nostrud esse. Id consequat exercitation excepteur minim voluptate cupidatat. Ut culpa aliquip officia duis amet ipsum proident eu. Ullamco ex consequat quis cupidatat cupidatat nostrud. Aliqua officia quis amet adipisicing elit aute tempor occaecat elit culpa nisi nostrud. Cillum occaecat sint ipsum do veniam in.
