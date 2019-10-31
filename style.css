@@ -23,23 +23,3 @@ html {
     background-color: var(--main-light);
 }
 
-/* Header */
-.header {
-    background-color: var(--main-accent-color);
-
-    padding: 20px 10%;
-
-    display: flex;
-    justify-content: space-between;
-
-    height: 75px;
-}
-
-.header .title {
-    
-}
-
-/* Page */
-.page-content {
-    margin: 0 10%;
-}

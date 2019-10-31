@@ -18,17 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: YSC Raai
+title: Young Solar Challenge Liudger Raai
+description: BESCHRIJVING
 email: youngsolarchallenge.raai@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: base
-  - scope:
-      type: "posts"
-    values:
-      layout: post
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: base
+#   - scope:
+#       type: "posts"
+#     values:
+#       layout: post
