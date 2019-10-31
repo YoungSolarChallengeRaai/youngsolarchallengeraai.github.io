@@ -24,6 +24,12 @@ description: DESCRIPTION
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: 'base'
+
 plugins:
   - jekyll-feed
 
