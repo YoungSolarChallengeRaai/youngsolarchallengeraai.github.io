@@ -1,8 +1,5 @@
 :root {
-    --main-accent-color: rgb(25, 177, 204);
-    --main-light: rgb(240, 240, 240);
-
-    --main-text-white: rgb(255, 255, 255);
+    --main-text-white: rgb(240, 240, 240);
 }
 
 * {
@@ -11,15 +8,49 @@
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    font-family: Arial, Helvetica, sans-serif;
     color: var(--main-text-white);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
 }
 
-html {
-    background-color: var(--main-light);
+h1 { font-size: 50pt; }
+h2 { font-size: 36pt; }
+h3 { font-size: 26pt; }
+h4 { font-size: 18pt; }
+p { font-size: 14pt; }
+
+/* Home */
+.home .section .content {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
+.home .section img {
+    width: 100vw;
+    height: 100%;
+}
+
+.home .front {
+    text-align: center;
+    text-shadow: 0 0 5px #000, 0 0 15px #000;
+}
+
+.home .front .content {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: #000 0 0 25px;
+    backdrop-filter: blur(4px);
+    margin-top: 10%;
+    margin: 10% 25%;
+    width: auto;
+}
+
+.home .front h3 {
+    font-style: italic;
+}
+
+/* http://graphicnovel-hybrid4.peugeot.com/start.html */
