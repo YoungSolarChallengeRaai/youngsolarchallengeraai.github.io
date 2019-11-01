@@ -3,14 +3,20 @@ title: 'Home'
 ---
 
 <div class="home">
-            <!-- <video autoplay loop muted class="background-video">
-            <source src="resources/videos/background.mp4" type="video/mp4">
-        </video> -->
-            <img src="/resources/images/stock_image_5.jpg" class="background-image">
+    <div class="nav-bar">
+        <a href="/" {% if page.title == "Home" %} class="active" {% endif %}>Home</a>
+        <a href="/about/" {% if page.title == "Wie zijn we?" %} class="active" {% endif %}>Wie zijn we?</a>
+        <a href="/blog/" {% if page.title == "Blog" %} class="active" {% endif %}>Blog</a>
+        <a href="/sponsoren/" {% if page.title == "Sponsoren" %} class="active" {% endif %}>Sponsoren</a>
+    </div>
 
+    <div class="page-content">
+    <img src="/resources/images/background_blurred.jpg" class="background-image">
+
+    <div class="sections">
         <div class="section">
-            <h1>CSG Liudger Raai</h1>
-            <h3>Young Solar Challenge</h3>
+            <h1>Young Solar Challenge</h1>
+            <a href="https://www.csgliudger.nl/"><h3>Team CSG Liudger Raai</h3></a>
             <div class="content">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium ratione ipsam, facilis impedit cum corrupti natus cupiditate dolore maxime vitae esse nemo similique veritatis. Labore soluta, odio saepe vero cupiditate consectetur perferendis hic similique et asperiores iure maxime reiciendis unde porro eaque earum, reprehenderit quasi cumque consequatur quibusdam odit.</p>
             </div>
@@ -19,7 +25,7 @@ title: 'Home'
         {% for post in site.posts %}
             {% if post.path contains 'home' %}
                 <div class="section">
-                    <h1>{{ post.title }}</h1>
+                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
                     {% unless post.sub-title == nil %}
                         <h3>{{ post.sub-title }}</h3>
                     {% endunless %}
@@ -30,3 +36,5 @@ title: 'Home'
             {% endif %}
         {% endfor %}
     </div>
+    </div>
+</div>
