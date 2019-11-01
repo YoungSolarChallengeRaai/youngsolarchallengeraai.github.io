@@ -3,9 +3,10 @@ title: 'Home'
 ---
 
 <div class="home">
-        <video autoplay loop muted class="background-video">
+            <!-- <video autoplay loop muted class="background-video">
             <source src="resources/videos/background.mp4" type="video/mp4">
-        </video>
+        </video> -->
+            <img src="/resources/images/stock_image_5.jpg" class="background-image">
 
         <div class="section">
             <h1>CSG Liudger Raai</h1>
@@ -14,12 +15,14 @@ title: 'Home'
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium ratione ipsam, facilis impedit cum corrupti natus cupiditate dolore maxime vitae esse nemo similique veritatis. Labore soluta, odio saepe vero cupiditate consectetur perferendis hic similique et asperiores iure maxime reiciendis unde porro eaque earum, reprehenderit quasi cumque consequatur quibusdam odit.</p>
             </div>
         </div>
-        
+
         {% for post in site.posts %}
             {% if post.path contains 'home' %}
                 <div class="section">
                     <h1>{{ post.title }}</h1>
-                    <h3>{{ post.sub-title }}</h3>
+                    {% unless post.sub-title == nil %}
+                        <h3>{{ post.sub-title }}</h3>
+                    {% endunless %}
                     <div class="content">
                         <p>{{ post.content }}</p>
                     </div>
