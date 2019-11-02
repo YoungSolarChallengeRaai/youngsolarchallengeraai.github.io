@@ -8,9 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/nav-bar.css">
+    <link rel="stylesheet" href="/style/home.css">
 </head>
 <body>
-    {{ content }}
+    <img src="/resources/images/background_blurred.jpg" class="background-image">
+
+    <div class="nav-bar">
+        <a href="/" {% if page.title == "Home" %} class="active" {% endif %}>Home</a>
+        <a href="/about/" {% if page.title == "Wie zijn we?" %} class="active" {% endif %}>Wie zijn we?</a>
+        <a href="/blog/" {% if page.title == "Blog" %} class="active" {% endif %}>Blog</a>
+        <a href="/sponsoren/" {% if page.title == "Sponsoren" %} class="active" {% endif %}>Sponsoren</a>
+    </div>
+    
+    <div class="page-content">
+        {{ content }}
+    </div>
 </body>
 </html>

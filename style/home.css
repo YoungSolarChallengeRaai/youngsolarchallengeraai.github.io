@@ -1,0 +1,58 @@
+.home .sections {
+    padding: 20% 5%;
+}
+
+.home .section {
+    margin-bottom: 20%;
+}
+
+.home .section:last-child {
+    margin-bottom: 0;
+}
+
+.home .section .content {
+    margin: 0 10%;
+}
+
+.home .section img {
+    width: 100%;
+    box-shadow: 0 0 30px #000;
+    border-radius: 15px;
+}
+
+.home .section h1, h2, h3 {
+    text-align: center;
+}
+
+.home .section h1, h2, h3, p {
+    text-shadow: 0 0 15px #000;
+}
+
+.home .section p {
+    text-align: justify;
+}
+
+.home .section h1 {
+    font-size: 54pt;
+}
+
+.home .section h3 {
+    font-style: italic;
+    font-size: 18pt;
+}
+
+.home .section h2 {
+    font-size: 36pt;
+}
+
+.home .section p {
+    font-size: 14pt;
+    margin: 20px 0;
+}
+
+.home .section .image-grid img {
+    width: 15vw;
+    box-shadow: none;
+    margin: 20px;
+    border-radius: 0;
+}

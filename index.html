@@ -2,17 +2,7 @@
 title: 'Home'
 ---
 
-<div class="home">
-    <div class="nav-bar">
-        <a href="/" {% if page.title == "Home" %} class="active" {% endif %}>Home</a>
-        <a href="/about/" {% if page.title == "Wie zijn we?" %} class="active" {% endif %}>Wie zijn we?</a>
-        <a href="/blog/" {% if page.title == "Blog" %} class="active" {% endif %}>Blog</a>
-        <a href="/sponsoren/" {% if page.title == "Sponsoren" %} class="active" {% endif %}>Sponsoren</a>
-    </div>
-
-    <div class="page-content">
-    <img src="/resources/images/background_blurred.jpg" class="background-image">
-
+<div class="home">        
     <div class="sections">
         <div class="section">
             <h1>Young Solar Challenge</h1>
@@ -35,6 +25,5 @@ title: 'Home'
                 </div>
             {% endif %}
         {% endfor %}
-    </div>
     </div>
 </div>
