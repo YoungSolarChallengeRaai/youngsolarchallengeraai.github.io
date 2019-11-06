@@ -1,24 +1,24 @@
 [
     {
       "name": "Victron Energy",
-      "image": "/resources/sponsors/logos/victron_energy.png",
+      "image": "/resources/images/sponsors/logos/victron_energy.png",
       "url": "https://www.victronenergy.com/",
       "is-main": true
     },
     {
       "name": "Hanzehogeschool",
-      "image": "/resources/sponsors/logos/hanze.png",
+      "image": "/resources/images/sponsors/logos/hanze.png",
       "url": "https://www.hanze.nl/eng",
       "is-main": true
     },
     {
       "name": "NHL Stenden Hogeschool",
-      "image": "/resources/sponsors/logos/nhl.png",
+      "image": "/resources/images/sponsors/logos/nhl.png",
       "is-main": true
     },
     {
       "name": "Ijntema BV",
-      "image": "/resources/sponsors/logos/ijntema_bv.png",
+      "image": "/resources/images/sponsors/logos/ijntema_bv.png",
       "url": "https://www.ijntema-bv.nl/",
       "is-main": false
     }

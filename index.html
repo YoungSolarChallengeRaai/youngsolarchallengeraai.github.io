@@ -2,28 +2,29 @@
 title: 'Home'
 ---
 
-<div class="home">        
-    <div class="sections">
-        <div class="section">
-            <h1>Young Solar Challenge</h1>
-            <a href="https://www.csgliudger.nl/"><h3>Team CSG Liudger Raai</h3></a>
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium ratione ipsam, facilis impedit cum corrupti natus cupiditate dolore maxime vitae esse nemo similique veritatis. Labore soluta, odio saepe vero cupiditate consectetur perferendis hic similique et asperiores iure maxime reiciendis unde porro eaque earum, reprehenderit quasi cumque consequatur quibusdam odit.</p>
-            </div>
-        </div>
+<div class="home">
+	<div class="page-front">
+		<h1 class="title">Young Solar Challenge</h1>
+		<h3 class="sub-title">CSG Liudger Raai</h3>
+	</div>
 
-        {% for post in site.posts %}
-            {% if post.path contains 'home' %}
-                <div class="section">
-                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-                    {% unless post.sub-title == nil %}
-                        <h3>{{ post.sub-title }}</h3>
-                    {% endunless %}
-                    <div class="content">
-                        <p>{{ post.content }}</p>
-                    </div>
-                </div>
-            {% endif %}
-        {% endfor %}
-    </div>
+	{% include header.html %}
+
+	<div class="page-content">
+		{% for post in site.posts %}
+		{% if post.path contains 'home' %}
+		<div class="section">
+			<a href="{{ post.url }}">
+				<h2>{{ post.title }}</h2>
+			</a>
+			{% unless post.sub-title == nil %}
+			<h3>{{ post.sub-title }}</h3>
+			{% endunless %}
+			<div class="content">
+				<p>{{ post.content }}</p>
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
 </div>

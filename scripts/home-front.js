@@ -1,0 +1,1 @@
+var image = document.getElementById('home-front-banner');
