@@ -149,5 +149,10 @@
 
   .home .page-content .section {
     border-radius: 0;
+    padding: 40px;
+  }
+
+  .home .page-content .section p {
+    font-size: 14pt;
   }
 }
