@@ -2,8 +2,9 @@
   --main-accent-light: #E5446F;
   --main-accent-mid: #D30A40;
   --main-accent-deep: #4C0E3F;
+
   --main-lighter: white;
-  --main-light: #f7f7f7;
+  --main-light: #fdfdfd;
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
-  font-family: 'SF Mono', 'Menlo', monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
