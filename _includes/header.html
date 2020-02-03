@@ -1,10 +1,18 @@
-<div class="header-holder">
-  <div id="header-target"></div>
-  <div id="header" class="header">
-    <a href="/">Home</a>
-    <a href="/">Wie zijn we?</a>
-    <a href="/">Sponsoren</a>
-  </div>
+<link rel="stylesheet" href="style/header.css">
 
-  <script src="scripts/header.js" charset="utf-8"></script>
+<div class="header">
+    {% if page.largeheader %}
+    <div class="{% if page.largeheader %}large-header{% endif %} banner">
+        <div class="text-box">
+            <h1>Team Helios</h1>
+            <p>CSG Liudger</p>
+        </div>
+    </div>
+    {% endif %}
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Wie zijn we?</a>
+        <a href="#">Races</a>
+        <a href="#">Nieuws</a>
+    </div>
 </div>

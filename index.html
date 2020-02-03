@@ -1,30 +1,49 @@
 ---
+layout: base
+largeheader: true
 title: 'Home'
 ---
 
+<link rel="stylesheet" href="style/home.css">
+
 <div class="home">
-	<div class="page-front">
-		<h1 class="title">Young Solar Challenge</h1>
-		<h3 class="sub-title">CSG Liudger Raai</h3>
-	</div>
+    <!-- QUOTE -->
+    <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, adipisci.</p>
 
-	{% include header.html %}
 
-	<div class="page-content">
-		{% for post in site.posts %}
-		{% if post.path contains 'home' %}
-		<div class="section">
-			<a href="{{ post.url }}">
-				<h2>{{ post.title }}</h2>
-			</a>
-			{% unless post.sub-title == nil %}
-			<h3>{{ post.sub-title }}</h3>
-			{% endunless %}
-			<div class="content">
-				<p>{{ post.content }}</p>
-			</div>
-		</div>
-		{% endif %}
-		{% endfor %}
-	</div>
+    <!-- INFO -->
+    <div class="info-containers">
+        <div class="container left">
+            <img src="/resources/images/stock/building.jpg" alt="Image">
+            <div class="content">
+                <h2>Wie zijn we?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ab repellat officia corrupti a eaque quod eius, quis aperiam vel dolorum animi excepturi suscipit eos velit accusamus. Ipsa, a veniam saepe natus totam, sunt nesciunt sit pariatur obcaecati accusamus tempore consequatur ab hic nulla dicta dolorum eveniet doloribus maxime! Eum!
+                </p>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <h2>Races</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ab repellat officia corrupti a eaque quod eius, quis aperiam vel dolorum animi excepturi suscipit eos velit accusamus. Ipsa, a veniam saepe natus totam, sunt nesciunt sit pariatur obcaecati accusamus tempore consequatur ab hic nulla dicta dolorum eveniet doloribus maxime! Eum!
+                </p>
+            </div>
+            <img src="/resources/images/stock/itanks.jpg" alt="Image">
+        </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="news-feed">
+        {% for post in site.posts %}
+            <div class="news-item">
+                <img src="/resources/images/stock/building.jpg" alt="Image">
+                <div class="content">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.description }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
