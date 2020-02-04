@@ -4,8 +4,6 @@ largeheader: true
 title: 'Home'
 ---
 
-<link rel="stylesheet" href="style/home.css">
-
 <div class="home">
     <!-- QUOTE -->
     <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, adipisci.</p>
@@ -18,7 +16,7 @@ title: 'Home'
             <div class="content">
                 <h2>Wie zijn we?</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ab repellat officia corrupti a eaque quod eius, quis aperiam vel dolorum animi excepturi suscipit eos velit accusamus. Ipsa, a veniam saepe natus totam, sunt nesciunt sit pariatur obcaecati accusamus tempore consequatur ab hic nulla dicta dolorum eveniet doloribus maxime! Eum!
+                   Incididunt non quis fugiat ex nisi exercitation magna eiusmod id labore pariatur cillum minim. Elit amet cillum quis qui nostrud enim ut in aliqua anim velit nostrud voluptate excepteur. Deserunt nostrud occaecat enim sit aliquip quis id aliqua aute id nulla sunt magna. Proident aliquip ut minim aliquip laboris commodo esse ex magna excepteur est veniam commodo. Proident nostrud ex duis non elit officia.
                 </p>
             </div>
         </div>
@@ -35,15 +33,41 @@ title: 'Home'
     </div>
 
     <!-- NEWS -->
-    <div class="news-feed">
-        {% for post in site.posts %}
-            <div class="news-item">
-                <img src="/resources/images/stock/building.jpg" alt="Image">
-                <div class="content">
-                    <h3>{{ post.title }}</h3>
-                    <p>{{ post.description }}</p>
-                </div>
-            </div>
-        {% endfor %}
+
+    <div class="news">
+        <h3 class="sub-title"><a href="/nieuws/">Nieuws</a></h3>
+
+        <div class="news-feed">
+            {% for post in site.posts limit: 3 %}
+                <a class="news-item" href="{{ post.url }}">
+                    <img src="{{ post.thumbnail }}" alt="Image">
+                    <div class="content">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.description }}</p>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
     </div>
+    
+
+    <!-- SPONSORS -->
+    <div class="sponsors">
+        <h3 class="sub-title"><a href="/sponsoren/">Onze Hoofdsponsoren</a></h3>
+
+        <div class="sponsor-logos">
+            {% for sponsor in site.data.sponsors %} 
+                {% if sponsor.is-main %} 
+                    {% if sponsor.url != nil %}
+                        <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"/>
+                        </a>
+                    {% else %}
+                        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+                    {% endif %} 
+                {% endif %} 
+            {% endfor %}
+        </div>
+    </div>
+
 </div>

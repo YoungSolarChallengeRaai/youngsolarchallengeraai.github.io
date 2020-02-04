@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Neopost Technologies BV",
+		"image": "/resources/images/sponsors/neopost.png",
+		"url": "https://www.neopost-technologies.nl/",
+		"is-main": true
+	},
+	{
+		"name": "Ijntema BV",
+		"image": "/resources/images/sponsors/ijntema_bv.png",
+		"url": "https://www.ijntema-bv.nl/",
+		"is-main": true
+	}
+]

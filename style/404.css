@@ -1,0 +1,26 @@
+.page-404 {
+	height: calc(100vh - 150px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	text-align: center;
+}
+
+.page-404 > * {
+	margin: auto;
+}
+
+.page-404 h2 {
+	font-size: 4em;
+}
+
+.page-404 p {
+	margin-bottom: 100px;
+	font-size: 2em;
+}
+
+.page-404 h1 {
+	font-size: 6em;
+}

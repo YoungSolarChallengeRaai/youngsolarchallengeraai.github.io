@@ -52,7 +52,7 @@
 	display: flex;
 	justify-content: center;
 
-	border-radius: 0 0 30px 30px;
+	border-radius: 0 0 10px 10px;
 }
 
 .header .nav > a {

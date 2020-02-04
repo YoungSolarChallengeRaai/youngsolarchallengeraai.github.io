@@ -1,6 +1,7 @@
 :root {
 	--main-light: #ffffff;
 	--main-dark: #f9f9f9;
+	--main-accent: #1da5ff;
 
 	--main-text-white: #ffffff;
 	--main-text-gray: #707070;
@@ -36,4 +37,31 @@ a:hover {
 
 body {
 	background-color: var(--main-dark);
+}
+
+.page-content {
+	min-height: calc(100vh - 150px);
+}
+
+.button {
+	background-color: var(--main-accent);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+	padding: 10px;
+	border-radius: 10px;
+
+	font-size: 1.2em;
+	font-weight: bold;
+	color: var(--main-text-black);
+}
+
+.sub-title {
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 2.5em;
+
+	text-align: center;
+	margin-bottom: 30px;
+
+	color: var(--main-text-gray);
 }
