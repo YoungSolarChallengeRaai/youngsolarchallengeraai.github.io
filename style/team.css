@@ -1,0 +1,45 @@
+.team-page {
+	margin: 50px 10%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.team-page .team-member {
+	width: 300px;
+	min-height: 500px;
+
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 50px;
+}
+
+.team-page .team-meber:last-child {
+	margin-bottom: 0;
+}
+
+.team-page .team-member img {
+	width: 100%;
+
+	border-radius: 10px 10px 0 0;
+
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.team-page .team-member .content {
+	padding: 20px;
+	height: 100%;
+
+	background-color: var(--main-light);
+	border-radius: 0 0 10px 10px;
+
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.team-page .team-member .content h3 {
+	font-size: 1.7em;
+	word-spacing: 5px;
+	margin-bottom: 15px;
+	text-transform: unset;
+}

@@ -96,6 +96,8 @@
 
 	background-color: var(--main-light);
 
+	border-radius: 0 0 10px 10px;
+
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 

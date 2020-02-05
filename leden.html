@@ -1,16 +1,16 @@
 ---
 layout: base
-title: "Wie zijn we?"
+title: "Leden"
 ---
 
 <div class="team-page">
     {% for member in site.data.team %}
-        <a class="team-member" href="#">
+        <div class="team-member" href="#">
             <img src="{{ member.picture }}" alt="Picture">
             <div class="content">
                 <h3>{{ member.name }}</h3>
                 <p>{{ member.description }}</p>
             </div>
-        </a>
+        </div>
     {% endfor %}
 </div>
