@@ -1,0 +1,10 @@
+---
+layout: base
+title: "Nieuws"
+---
+
+{% for post in site.posts %}
+    <div>
+        {{ post.content }}
+    </div>
+{% endfor %}
