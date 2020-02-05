@@ -17,7 +17,7 @@
 }
 
 .home .info-containers .container {
-	height: 300px;
+	/* min-height: 300px; */
 
 	display: flex;
 
@@ -38,7 +38,7 @@
 }
 
 .home .info-containers .container img {
-	height: 100%;
+	max-height: 300px;
 
 	border-radius: 10px;
 
