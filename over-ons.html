@@ -5,6 +5,12 @@ title: "Wie zijn we?"
 
 <div class="team-page">
     {% for member in site.data.team %}
-        
+        <a class="team-member" href="#">
+            <img src="{{ member.picture }}" alt="Picture">
+            <div class="content">
+                <h3>{{ member.name }}</h3>
+                <p>{{ member.description }}</p>
+            </div>
+        </a>
     {% endfor %}
 </div>
