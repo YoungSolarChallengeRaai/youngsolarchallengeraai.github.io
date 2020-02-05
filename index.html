@@ -56,8 +56,8 @@ title: 'Home'
         <h3 class="sub-title"><a href="/sponsoren/">Onze Hoofdsponsoren</a></h3>
 
         <div class="sponsor-logos">
-            {% for sponsor in site.data.sponsors %} 
-                {% if sponsor.is-main %} 
+            {% for sponsor in site.data.sponsors %}
+                {% if sponsor.is-main %}
                     {% if sponsor.url != nil %}
                         <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
                             <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"/>
