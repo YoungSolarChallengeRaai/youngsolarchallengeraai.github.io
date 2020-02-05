@@ -24,3 +24,12 @@
 	margin-left: 10px;
 	font-weight: bold;
 }
+
+.footer .logo{
+	margin: 10px;
+}
+
+.footer .logo img {
+	margin-top:10px;
+	height:70px;
+}
