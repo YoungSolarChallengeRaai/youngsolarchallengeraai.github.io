@@ -1,14 +1,14 @@
 [
 	{
-		"name": "Neopost Technologies BV",
-		"image": "/resources/images/sponsors/neopost.png",
-		"url": "https://www.neopost-technologies.nl/",
-		"is-main": false
+		"name": "gemeente smallingerland",
+		"image": "/resources/images/sponsors/gemeentesmallingerland.png",
+		"url": "https://www.smallingerland.nl/",
+		"is-main": true
 	},
 	{
-		"name": "Ijntema BV",
-		"image": "/resources/images/sponsors/ijntema_bv.png",
-		"url": "https://www.ijntema-bv.nl/",
-		"is-main": false
+		"name": "schuurman",
+		"image": "/resources/images/sponsors/schuurman.png",
+		"url": "https://www.schuurman-et.nl/",
+		"is-main": true
 	}
 ]
