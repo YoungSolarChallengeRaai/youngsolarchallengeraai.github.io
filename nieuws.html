@@ -5,8 +5,8 @@ title: "Nieuws"
 
 <div class="news-list">
     {% for post in site.posts %}
-    <div class="news-post">
-        <h2>{{ post.title }}</h2>
+    <div id="{{post.title}}" class="news-post">
+        <h2 >{{ post.title }}</h2>
         <img src="{{ post.thumbnail }}" alt="Picture">
         {{ post.content }}
         <p class="author">{{ post.author }}, {{ post.date | date: "%d-%m-%y"}}</p>

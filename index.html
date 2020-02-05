@@ -14,7 +14,7 @@ title: 'Home'
         <div class="container left">
             <img src="/resources/images/stock/building.jpg" alt="Image">
             <div class="content">
-                <h2>Wie zijn we?</h2>
+                <h2><a href="/leden.html/">Wie zijn we?</a></h2>
                 <p>
                     Wij zijn een jong en ambitieus team van negen leerlingen uit vwo 4 en 5 die willen laten zien dat duurzaamheid aantrekkelijk kan zijn. Met ons team willen we een  bijdrage leveren aan een wereld waarin groene energie en duurzaamheid haalbaar is voor zowel jong als oud.
                     Hierbij gaan we geen challenge uit de weg . 
@@ -41,7 +41,7 @@ title: 'Home'
 
         <div class="news-feed">
             {% for post in site.posts limit: 3 %}
-                <a class="news-item" href="/nieuws.html">
+                <a class="news-item" href="/nieuws.html#{{post.title}}">
                     <img src="{{ post.thumbnail }}" alt="Image">
                     <div class="content">
                         <h3>{{ post.title }}</h3>
