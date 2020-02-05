@@ -1,5 +1,5 @@
 ---
-title: "540 kerstbomen....!"
+title: "540 kerstbomen!"
 author: "Allison Han van der Spoel"
 summary: "Afgelopen kerst hebben we meegedaan aan de kerstbomen actie van Gemeente Smallingerland. Scholen en sportclubs uit de hele gemeente konden meedoen aan deze actie, door zo veel mogelijk kerstbomen te verzamelen en in te leveren. Voor elke kerstboom krijgt je team €0,75."
 thumbnail: "/resources/images/posts/trees.jpg" 
