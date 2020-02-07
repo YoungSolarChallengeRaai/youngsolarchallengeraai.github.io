@@ -1,5 +1,11 @@
 .news-list {
-	margin: 50px 15%;
+	margin: 50px 5%;
+}
+ 
+@media only screen and (min-width: 650px) {
+	.news-list {
+	  margin: 50px 15%;
+	}
 }
 
 .news-list .news-post {
@@ -9,7 +15,7 @@
 	margin-bottom: 50px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 
-	padding: 40px;
+	padding: 5%;
 }
 
 .news-list .news-post h2 {
