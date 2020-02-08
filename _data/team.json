@@ -5,61 +5,61 @@
 		"class": "VWO 5",
 		"function": "PR sponsering",
 		"picture": "/resources/images/team/allison.png",
-		"description": "Mijn twee grootste hobby’s zijn voetballen en piano spelen. Daarnaast hou ik heel erg van reizen en avontuur, zoals bijvoorbeeld de Young Solar Challenge! Ik was meteen enthousiast toen ik hoorde dat onze school hieraan mee zou gaan doen en heb me ook meteen aangemeld, om het avontuur aan te gaan, om te leren hoe zo’n project in zijn werk gaat en natuurlijk om een supergave solarboat te bouwen. "
+		"description": "Mijn twee grootste hobby’s zijn voetballen en piano spelen. Daarnaast hou ik heel erg van reizen en avontuur, zoals bijvoorbeeld de Young Solar Challenge! Ik was meteen enthousiast toen ik hoorde dat onze school hieraan mee zou gaan doen en heb me ook meteen aangemeld, om het avontuur aan te gaan, om te leren hoe zo’n project in zijn werk gaat en natuurlijk om een supergave solarboat te bouwen."
 	},
 	{
 		"name": "Bauke Westendorp",
 		"age": 16,
 		"class": "VWO 4",
-		"function": "Webdeveloper analyse",
+		"function": "Webdeveloper / Analyse",
 		"picture": "/resources/images/team/bauke.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
 		"name": "Bent Rügebregt",
-		"age": -1,
+		"age": "LEEFTIJD",
 		"class": "VWO 4",
-		"function": "",
+		"function": "FUNCTIE",
 		"picture": "/resources/images/team/bent.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
-		"name": "Hidde .....",
-		"age": -1,
+		"name": "Hidde Veenstra",
+		"age": "LEEFTIJD",
 		"class": "VWO 4",
-		"function": "",
+		"function": "FUNCTIE",
 		"picture": "/resources/images/team/hidde.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
 		"name": "Hielke van der Wal",
 		"age": 17,
 		"class": "VWO 5",
-		"function": "webdeveloper allrounder",
+		"function": "Webdeveloper / Allrounder",
 		"picture": "/resources/images/team/hielke.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
 		"name": "Jelmer Wiersma",
-		"age": -1,
+		"age": "LEEFTIJD",
 		"class": "VWO 5",
 		"function": "Analyse",
 		"picture": "/resources/images/team/jelmer.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
 		"name": "Klaas Peereboom",
-		"age": -1,
+		"age": "LEEFTIJD",
 		"class": "VWO 4",
-		"function": "",
+		"function": "FUNCTIE",
 		"picture": "/resources/images/team/klaas.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
 		"name": "Maloe Dijkstra",
 		"age": 16,
 		"class": "VWO 5",
-		"function": "PR analyse",
+		"function": "PR / Analyse",
 		"picture": "/resources/images/team/maloe.png",
 		"description": "Ik doe mee met de Young Solar Challenge omdat ik het leuk vind om in de praktijk bezig te zijn met wat je leert uit boeken. In mijn vrije tijd ben ik graag met scouting bezig. Dat doe ik al vanaf mijn vijfde. Mijn fantasie is groot, daarom lees ik erg graag boeken en teken ik veel."
 	},
@@ -67,24 +67,24 @@
 		"name": "Nils Thalen",
 		"age": 16,
 		"class": "VWO 4",
-		"function": "Electra/ constructie boot",
+		"function": "Electra / Bootbouw",
 		"picture": "/resources/images/team/nils.png",
-		"description": "Ik zeil en mountainbike graag in mijn vrije tijd. Ook speel ik graag gitaar. Toen ik hoorde dat ik me kon opgeven voor deze challenge, ben ik meteen gaan mailen. De Young Solar Challenge leek mij een heel leuk project waar je veel kennis van kan opdoen. Ik denk dat het project ook een goed begin is voor de studie Advanced Technology, die ik als ik vwo afgerond heb wil gaan volgen"
+		"description": "Ik zeil en mountainbike graag in mijn vrije tijd. Ook speel ik graag gitaar. Toen ik hoorde dat ik me kon opgeven voor deze challenge, ben ik meteen gaan mailen. De Young Solar Challenge leek mij een heel leuk project waar je veel kennis van kan opdoen. Ik denk dat het project ook een goed begin is voor de studie Advanced Technology, die ik als ik vwo afgerond heb wil gaan volgen."
 	},
 	{
 		"name": "Bas van Rooij",
 		"age": 40,
-		"class": "Teamleider VWO bovenbouw",
-		"function": "Team begeleider",
+		"class": "Teamleider VWO Bovenbouw",
+		"function": "Team Begeleider",
 		"picture": "/resources/images/team/bas.png",
-		"description": ""
+		"description": "VERHAAL"
 	},
 	{
 		"name": "Niels Wilbrink",
-		"age": -1,
-		"class": "O&O/techniek docent",
-		"function": "Team begeleider",
+		"age": "LEEFTIJD",
+		"class": "O&O / Techniek Docent",
+		"function": "Team Begeleider",
 		"picture": "/resources/images/team/niels.png",
-		"description": ""
+		"description": "VERHAAL"
 	}
 ]
