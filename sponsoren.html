@@ -1,4 +1,23 @@
 ---
 layout: base
-title: "Nieuws"
+title: "Sponsoren"
 ---
+<div class="sponsors">
+    <div class="become-sponsor">
+        <h3>Ook sponsor worden als bedrijf of individu? <span><a href="/word-sponsor/" class="highlighted">Klik hier</a></span></h3>   
+    </div>
+
+    <h1>Onze Sponsoren</h1>
+
+    <div class="sponsor-grid">
+        {% for sponsor in site.data.sponsors %}
+            <div class="sponsor-container">
+                {% if sponsor.url != nil %}
+                    <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+                {% else %}
+                    <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -56,6 +56,14 @@ body {
 	color: var(--main-text-black);
 }
 
+.highlighted {
+	color: var(--main-accent);
+}
+
+.highlighted:hover {
+	color: var(--main-accent-hover);
+}
+
 h1,
 h2,
 h3 {

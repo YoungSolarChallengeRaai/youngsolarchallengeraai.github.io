@@ -5,13 +5,17 @@ title: "Leden"
 
 <div class="team-page">
     {% for member in site.data.team %}
-        <div class="team-member" href="#">
+        <div class="team-member">
             <img src="{{ member.picture }}" alt="Picture">
             <div class="content">
-                <h3>{{ member.name }}</h3>
-                <p>{{ member.description }}</p>
-                <p class="function"> {{member.function}}</p>
-                <p>{{member.class}}, {{member.age}} jaar</p>
+                <div>
+                    <h3>{{ member.name }}</h3>
+                    <p>{{ member.description }}</p>
+                </div>
+                <div>
+                    <p class="function"> {{member.function}}</p>
+                    <p>{{member.class}}, {{member.age}} jaar</p>
+                </div>
             </div>
         </div>
     {% endfor %}

@@ -17,7 +17,7 @@
 }
 
 @media only screen and (min-width: 650px) {
-	.team-page{
+	.team-page {
 		margin: 50px 10%;
 	}
 
@@ -46,15 +46,19 @@
 	border-radius: 0 0 10px 10px;
 
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .team-page .team-member .content h3 {
 	font-size: 1.7em;
-	word-spacing: 5px;
+	word-spacing: 2px;
 	margin-bottom: 15px;
 	text-transform: unset;
 }
 
-.team-page .team-member .content .function{
+.team-page .team-member .content .function {
 	margin-top: 10px;
 }

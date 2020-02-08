@@ -1,0 +1,32 @@
+.sponsors .become-sponsor {
+	margin-top: 60px;
+
+	font-size: 17pt;
+	text-align: center;
+}
+
+.sponsors .become-sponsor h3 {
+	text-transform: unset;
+}
+
+.sponsors h1 {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.sponsors .sponsor-grid {
+	margin: 60px 20%;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+}
+
+.sponsors .sponsor-grid .sponsor-container {
+	width: 40%;
+}
+
+.sponsors .sponsor-grid .sponsor-container img {
+	width: 100%;
+}
