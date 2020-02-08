@@ -9,24 +9,7 @@
 	margin-bottom: 80px;
 }
 
-.home .quote {
-	text-align: center;
-	font-style: italic;
-
-	font-size: 16pt;
-}
-
-.home .sub-quote {
-	text-align: center;
-	font-style: italic;
-
-	margin-top: 0px;
-	font-size: 12pt;
-}
-
 .home .info-containers .container {
-	/* min-height: 300px; */
-
 	display: flex;
 
 	margin-bottom: 60px;

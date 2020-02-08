@@ -6,8 +6,10 @@
 	border-radius: 10px 10px 0 0;
 
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+
+	padding: 0 40px;
 }
 
 .footer .social .social-link {
@@ -25,11 +27,11 @@
 	font-weight: bold;
 }
 
-.footer .logo{
+.footer .logo {
 	margin: 10px;
 }
 
 .footer .logo img {
-	margin-top:10px;
-	height:70px;
+	margin-top: 10px;
+	height: 70px;
 }
