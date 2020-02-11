@@ -119,3 +119,18 @@
 	width: 300px;
 	height: 100%;
 }
+
+.home .quote {
+	text-align: center;
+	font-style: italic;
+
+	font-size: 16pt;
+}
+
+.home .sub-quote {
+	text-align: center;
+	font-style: italic;
+
+	margin-top: 0px;
+	font-size: 12pt;
+}
