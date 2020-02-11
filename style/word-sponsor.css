@@ -1,0 +1,41 @@
+.intro{
+    margin: 40px 20%;
+}
+
+.intro p{
+    font-size: 11pt;
+}
+
+.sponsor-packages{
+    margin: 25px 15%;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.sponsor-packages .packages{
+    width: 100%; 
+}
+
+.sponsor-packages table{
+    border-collapse: collapse;
+}
+
+.sponsor-packages .packages td{
+    padding: 10px
+}
+
+.sponsor-packages tr:nth-child(even) {background-color: #e0e0e0;}
+
+.sponsor-packages h1{
+    text-transform: unset;
+}
+
+.sponsor-packages h2{
+    text-transform: unset;
+}
+
+.sponsor-packages h3{
+    text-transform: unset;
+}

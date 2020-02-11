@@ -1,0 +1,24 @@
+[
+    {
+        "name": "pakket 1",
+        "requirement" : 250,
+        "return": [
+            "Naamsvermelding op onze website, Instagram, school- nieuwsbrief en daar waar mogelijk in regionale media.","U ontvangt een verslag (Solar-bulletin) over onze voortgang en alle updates."
+        ]
+    },
+    {
+        "name": "pakket 2",
+        "requirement" : 500,
+        "return": [
+            "Naamsvermelding op onze website, Instagram, school- nieuwsbrief en daar waar mogelijk in regionale media.","U ontvangt een verslag (Solar-bulletin) over onze voortgang en alle updates.","Naam en/of logo komt op de boot"
+        ]
+    },
+    {
+        "name": "pakket 3",
+        "requirement" : 1000,
+        "return": [
+            "Naamsvermelding op onze website, Instagram, school- nieuwsbrief en daar waar mogelijk in regionale media.","U ontvangt een verslag (Solar-bulletin) over onze voortgang en alle updates.","Naam en/of logo komt op de boot","Naam op kleding","Boot en team komt \"op bezoek” bij uw bedrijf \"(indien gewenst met een presentatie erbij).","Vrij in te vullen door de sponsor"
+            
+        ]
+    }
+]
