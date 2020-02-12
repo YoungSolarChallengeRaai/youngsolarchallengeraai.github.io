@@ -17,11 +17,11 @@
 	},
 	{
 		"name": "Bent Rügebregt",
-		"age": 16,
+		"age": 15,
 		"class": "VWO 4",
 		"function": "Bootbouw",
 		"picture": "/resources/images/team/bent.jpg",
-		"description": ""
+		"description": "Ik ben bent rugebregt. Toen ik op school zag dat ik een zonneboot kon gaan bouwen, was ik meteen geinteresseerd. Ik houd namelijk erg van techniek. Na deze school wil ik een studie gaan doen over autotechniek. Wat ervaring in de techniek door middel van deze boot past daar mooi bij."
 	},
 	{
 		"name": "Hidde Veenstra",
@@ -38,14 +38,6 @@
 		"function": "Webdeveloper / Allrounder",
 		"picture": "/resources/images/team/hielke.jpg",
 		"description": ""
-	},
-	{
-		"name": "Jelmer Wiersma",
-		"age": 17,
-		"class": "VWO 5",
-		"function": "Analyse",
-		"picture": "/resources/images/team/jelmer.jpg",
-		"description": ""	
 	},
 	{
 		"name": "Klaas Peereboom",
