@@ -1,9 +1,9 @@
-.team-image{
+.team-image {
 	margin: 20px 20% 20px 20%;
 }
 
 .team-page {
-	margin: 50px 10% 0px 10%;
+	margin: 50px 5% 0px 5%;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
