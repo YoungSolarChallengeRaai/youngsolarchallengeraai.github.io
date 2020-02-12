@@ -4,7 +4,7 @@
 		"age": 16,
 		"class": "VWO 5",
 		"function": "PR / Sponsering",
-		"picture": "/resources/images/team/allison.png",
+		"picture": "/resources/images/team/allison.jpg",
 		"description": "Mijn twee grootste hobby’s zijn voetballen en piano spelen. Daarnaast hou ik heel erg van reizen en avontuur, zoals bijvoorbeeld de Young Solar Challenge! Ik was meteen enthousiast toen ik hoorde dat onze school hieraan mee zou gaan doen en heb me ook meteen aangemeld, om het avontuur aan te gaan, om te leren hoe zo’n project in zijn werk gaat en natuurlijk om een supergave solarboat te bouwen."
 	},
 	{
@@ -12,55 +12,55 @@
 		"age": 16,
 		"class": "VWO 4",
 		"function": "Webdeveloper / Analyse",
-		"picture": "/resources/images/team/bauke.png",
-		"description": "VERHAAL"
+		"picture": "/resources/images/team/bauke.jpg",
+		"description": "Sinds ik jong ben, heb ik altijd een intresse voor techniek gehad, en toen ik op school hoorde dat er een solarboat team werd opgericht, meldde ik me direct aan. De laatste jaren ben ik veel bezig met programmeren, en zag ik mijn kans bij het team om te helpen met analyse."
 	},
 	{
 		"name": "Bent Rügebregt",
-		"age": "LEEFTIJD",
+		"age": 16,
 		"class": "VWO 4",
-		"function": "FUNCTIE",
-		"picture": "/resources/images/team/bent.png",
-		"description": "VERHAAL"
+		"function": "Bootbouw",
+		"picture": "/resources/images/team/bent.jpg",
+		"description": ""
 	},
 	{
 		"name": "Hidde Veenstra",
-		"age": "LEEFTIJD",
+		"age": 15,
 		"class": "VWO 4",
-		"function": "FUNCTIE",
-		"picture": "/resources/images/team/hidde.png",
-		"description": "VERHAAL"
+		"function": "Bootbouw / Electra",
+		"picture": "/resources/images/team/hidde.jpg",
+		"description": "Ik doe mee aan de Young Solar challenge omdat ik het een super gaaf project vind en altijd al wat wilde leren over hoe je een boot moet bouwen. Ook doe ik mee omdat ik geïnteresseert ben in electra techniek en er nog veel over wilde leren. Verder doe ik nog atletiek met als favoriete deel hardlopen."
 	},
 	{
 		"name": "Hielke van der Wal",
 		"age": 17,
 		"class": "VWO 5",
 		"function": "Webdeveloper / Allrounder",
-		"picture": "/resources/images/team/hielke.png",
-		"description": "VERHAAL"
+		"picture": "/resources/images/team/hielke.jpg",
+		"description": ""
 	},
 	{
 		"name": "Jelmer Wiersma",
-		"age": "LEEFTIJD",
+		"age": 17,
 		"class": "VWO 5",
 		"function": "Analyse",
-		"picture": "/resources/images/team/jelmer.png",
-		"description": "VERHAAL"
+		"picture": "/resources/images/team/jelmer.jpg",
+		"description": ""	
 	},
 	{
 		"name": "Klaas Peereboom",
-		"age": "LEEFTIJD",
+		"age": 16,
 		"class": "VWO 4",
 		"function": "FUNCTIE",
-		"picture": "/resources/images/team/klaas.png",
-		"description": "VERHAAL"
+		"picture": "/resources/images/team/klaas.jpg",
+		"description": "Ik doe mee aan Young Solar omdat het me een flinke uitdaging leek. Ook hoop ik zo meer kennis te vergaren. Mijn taak in het team is bouwen en het aanleggen van de techniek. Mijn hobby is het opknappen en restaureren van klassieke Benelli brommer's en motoren uit de jaren zestig."
 	},
 	{
 		"name": "Maloe Dijkstra",
 		"age": 16,
 		"class": "VWO 5",
 		"function": "PR / Analyse",
-		"picture": "/resources/images/team/maloe.png",
+		"picture": "/resources/images/team/maloe.jpg",
 		"description": "Ik doe mee met de Young Solar Challenge omdat ik het leuk vind om in de praktijk bezig te zijn met wat je leert uit boeken. In mijn vrije tijd ben ik graag met scouting bezig. Dat doe ik al vanaf mijn vijfde. Mijn fantasie is groot, daarom lees ik erg graag boeken en teken ik veel."
 	},
 	{
@@ -68,7 +68,7 @@
 		"age": 16,
 		"class": "VWO 4",
 		"function": "Electra / Bootbouw",
-		"picture": "/resources/images/team/nils.png",
+		"picture": "/resources/images/team/nils.jpg",
 		"description": "Ik zeil en mountainbike graag in mijn vrije tijd. Ook speel ik graag gitaar. Toen ik hoorde dat ik me kon opgeven voor deze challenge, ben ik meteen gaan mailen. De Young Solar Challenge leek mij een heel leuk project waar je veel kennis van kan opdoen. Ik denk dat het project ook een goed begin is voor de studie Advanced Technology, die ik als ik vwo afgerond heb wil gaan volgen."
 	},
 	{
@@ -76,15 +76,15 @@
 		"age": 40,
 		"class": "Teamleider VWO Bovenbouw",
 		"function": "Team Begeleider",
-		"picture": "/resources/images/team/bas.png",
-		"description": "VERHAAL"
+		"picture": "/resources/images/team/bas.jpg",
+		"description": ""
 	},
 	{
 		"name": "Niels Wilbrink",
-		"age": "LEEFTIJD",
+		"age": 31,
 		"class": "O&O / Techniek Docent",
 		"function": "Team Begeleider",
-		"picture": "/resources/images/team/niels.png",
-		"description": "VERHAAL"
+		"picture": "/resources/images/team/niels.jpg",
+		"description": "Afgelopen jaar werd mij gevraagd om een team leerlingen te begeleiden bij het bouwen van een zonneboot. 'JA doe ik!' was meteen mijn reactie 'Super tof'. Wat een mooi project voor leerlingen om kennis en vaardigheden op te doen buiten het schoollokaal. Ik hoop de leerlingen tijdens deze challenge vooral te inspireren en samen met hen naar oplossingen te zoeken."
 	}
 ]

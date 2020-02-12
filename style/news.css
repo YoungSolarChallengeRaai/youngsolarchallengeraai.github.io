@@ -1,11 +1,5 @@
 .news-list {
-	margin: 50px 5%;
-}
- 
-@media only screen and (min-width: 650px) {
-	.news-list {
-	  margin: 50px 15%;
-	}
+	margin: 50px 15%;
 }
 
 .news-list .news-post {
@@ -49,4 +43,26 @@
 	font-style: italic;
 	font-size: 12pt;
 	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 650px) {
+	.news-list {
+	  margin: 50px 5%;
+	}
+}
+
+
+@media only screen and (max-width: 450px) {
+	.news-list {
+		margin: 50px 0;
+
+	}
+
+	.news-list .news-post {
+		border-radius: 0;
+	}
+
+	.news-list .news-post img {
+		max-width: 100%;
+	}
 }

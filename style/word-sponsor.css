@@ -39,3 +39,21 @@
 .sponsor-packages h3{
     text-transform: unset;
 }
+
+.contact-information{
+    margin: 40px 20%;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.contact-information input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contact-information input#content{
+    height: 100px;
+}

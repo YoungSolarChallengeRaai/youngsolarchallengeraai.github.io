@@ -35,3 +35,17 @@
 	margin-top: 10px;
 	height: 70px;
 }
+
+.footer #logo{
+	transform: none
+}
+
+@media only screen and (max-width: 600px) {
+	.footer #logo {
+		display: none;
+	}
+
+	.footer {
+		justify-content: center;
+	}
+}
