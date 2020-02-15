@@ -4,7 +4,7 @@ layout: base
 title: "Word Sponsor"
 ---
 
-<div class="intro">
+<div class="textbox">
     <h1>word een sponsor</h1>
     <p>
         Het bouwen van een solarboat is natuurlijk super gaaf, maar kost ook geld en middelen. Wij zijn daarom opzoek naar sposoren die ons daarmee willen helpen. We hebben diverse sponsorpakketten. Als u ons wilt sponsoren, gaan wij graag met u in gesprek over onze visie en wat wij voor elkaar kunnen betekenen. 
@@ -14,14 +14,14 @@ title: "Word Sponsor"
     </p>
 </div>
 
-<div class="sponsor-packages">
+<div class="sponsor-packages-c">
     <table class="packages">
-        <tr><td></td><td><h1>wat krijgt u ervoor terug?</h1></td></tr>    
+        <tr><td></td><td><h1>Wat krijgt u ervoor terug?</h1></td></tr>    
         {% for package in site.data.sponsorpackages %}
         <tr>
             <td>
-                <h1>{{package.name}}.</h1>
-                <h2>dit wordt uw vanaf €{{package.requirement}},-</h2> 
+                <h1>{{package.name}}</h1>
+                <h2>dit wordt u vanaf €{{package.requirement}},-</h2> 
             </td>
             <td>
                 {% for r in package.return %}
@@ -33,19 +33,37 @@ title: "Word Sponsor"
     </table>
 </div>
 
-<div class="intro">
+<div class="sponsor-packages-m">
+    {% for package in site.data.sponsorpackages %}
+    <div class="packages">
+        <h1>{{package.name}}</h1>
+        <h2>vanaf €{{package.requirement}},- krijgt u:</h2>
+        {% for r in package.return %}
+            <h3>-{{r}}</h3>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+<div class="textbox">
     <p>
-        Bent u particulier of wilt u een vrije donatie geven? Dat kan natuurlijk ook. Als u ons eenmalig een bedrag onder €250 sponsort/doneert krijgt u van ons de solar-bulletin. Dat is een soort nieuwsbrief wat wij maandelijks sturen aan iedereen die ons sponsort. Voor iedereen die ons een donatie geeft: bedankt namens heel Team Helios!
+        Bent u particulier of wilt u een vrije donatie geven? Dat kan natuurlijk ook. Als u ons eenmalig een bedrag onder €250 sponsort/doneert krijgt u van ons de solar-bulletin. Dat is een soort nieuwsbrief die wij maandelijks sturen aan iedereen die ons sponsort. Voor iedereen die ons een donatie geeft: bedankt namens heel Team Helios!
     </p>
 </div>
 
 <div class="contact-information">
     <h1>E-mail ons</h1>
     <div class="E-mail">
-        <input id="E-mail" type="text">
-        <input id="content" type="text">
+        <input id="subject" type="text" placeholder="onderwerp">
+        <textarea  id="content" type="text" rows="4" cols="50" placeholder="Uw bericht"></textarea>
     </div>
-    <button id="send">klik me</button>
+    <button id="send" onclick="sendEmail()">verstuur</button>
 </div>
 
-<script src="/scripts/email.js" charset="utf-8"></script>
+<script>
+    function sendEmail(){
+        window.open("mailto:hielke010@gmail.com?subject=" + document.getElementById("subject").value + "&body=" + document.getElementById("content").value);
+        document.getElementById("subject").value = "";
+        document.getElementById("content").value = "";
+    }
+</script>

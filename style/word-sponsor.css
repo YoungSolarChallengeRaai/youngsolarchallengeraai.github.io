@@ -1,12 +1,12 @@
-.intro{
+.textbox{
     margin: 40px 20%;
 }
 
-.intro p{
+.textbox p{
     font-size: 11pt;
 }
 
-.sponsor-packages{
+.sponsor-packages-c{
     margin: 25px 15%;
     padding: 20px;
     border-radius: 10px;
@@ -14,35 +14,40 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-.sponsor-packages .packages{
+.sponsor-packages-m{
+    display: none;
+}
+
+.sponsor-packages-m .packages{
+    padding: 10px 5%;
+}
+
+.sponsor-packages-m .packages:nth-of-type(odd){
+    background-color: #e0e0e0;
+}
+
+.sponsor-packages-c .packages{
     width: 100%; 
 }
 
-.sponsor-packages table{
+.sponsor-packages-c table{
     border-collapse: collapse;
 }
 
-.sponsor-packages .packages td{
+.sponsor-packages-c .packages td{
     padding: 10px
 }
 
-.sponsor-packages tr:nth-child(even) {background-color: #e0e0e0;}
+.sponsor-packages-c tr:nth-child(even) {background-color: #e0e0e0;}
 
-.sponsor-packages h1{
-    text-transform: unset;
-}
-
-.sponsor-packages h2{
-    text-transform: unset;
-}
-
-.sponsor-packages h3{
+.sponsor-packages-c h1,h2,h3{
     text-transform: unset;
 }
 
 .contact-information{
     margin: 40px 20%;
     padding: 20px;
+    padding-bottom: 40px;
     border-radius: 10px;
 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -54,6 +59,48 @@
     width: 100%;
 }
 
+.contact-information textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    resize: vertical;
+    min-height: 50px;
+}
+
 .contact-information input#content{
     height: 100px;
+}
+
+.contact-information button{
+    float: right;
+}
+
+@media only screen and (max-width: 600px){
+    .textbox{
+        margin: 40px 5%;
+    }
+
+    .sponsor-packages-c{
+        display: none;
+    }
+
+    .sponsor-packages-m{
+        display: block;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        padding: 10px;
+    }
+
+    .contact-information{
+        margin: 40px 5%;
+    }
+
+    .contact-information textarea{
+        min-height: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .sponsor-packages-c{
+        margin: 25px 5%;
+    }
 }
