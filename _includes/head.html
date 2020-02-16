@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/footer.css">
     <link rel="stylesheet" href="/style/header.css">
-    <link rel="stylesheet" href="/style/home.css">
-    <link rel="stylesheet" href="/style/404.css">
-    <link rel="stylesheet" href="/style/news.css">
-    <link rel="stylesheet" href="/style/team.css">
-    <link rel="stylesheet" href="/style/sponsors.css">
-    <link rel="stylesheet" href="/style/word-sponsor.css">
+
+    <link rel="stylesheet" href="/style/{{page.title}}.css">
+
+    {% for style in page.ExtraStyles %}
+    <link rel="stylesheet" href="/style/{{style}}.css">
+    {% endfor %}
+    
     <title>{{ page.title }} - {{ site.title }}</title>
 </head>
