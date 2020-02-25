@@ -41,6 +41,7 @@ ExtraStyles: ["sponsoren"]
 
         <div class="news-feed">
             {% for post in site.posts limit: 3 %}
+            <div class="news-post">
                 <a class="news-item" href="/nieuws.html#{{post.title}}">
                     <img src="{{ post.thumbnail }}" alt="Image">
                     <div class="content">
@@ -48,6 +49,7 @@ ExtraStyles: ["sponsoren"]
                         <p>{{ post.summary }}</p>
                     </div>
                 </a>
+            </div>
             {% endfor %}
         </div>
     </div>
