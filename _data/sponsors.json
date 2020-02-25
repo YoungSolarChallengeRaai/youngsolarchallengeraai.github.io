@@ -1,8 +1,26 @@
 [
-    {
-      "name": "Schuurman Elektrotechniek",
-      "image": "/resources/images/sponsors/logos/schuurman.png",
-      "url": "http://www.schuurman.nl/",
-      "is-main": true
-    }
-  ]
+	{
+		"name": "Gemeente Smallingerland",
+		"image": "/resources/images/sponsors/gemeentesmallingerland.png",
+		"url": "https://www.smallingerland.nl/",
+		"is-main": true
+	},
+	{
+		"name": "Schuurman Elektrotechniek",
+		"image": "/resources/images/sponsors/schuurman.png",
+		"url": "https://www.schuurman-et.nl/",
+		"is-main": true
+	},
+	{
+		"name": "Conoship",
+		"image": "/resources/images/sponsors/conoship.png",
+		"url": "https://www.conoship.com/",
+		"is-main": false
+	},
+	{
+		"name": "True Leadership",
+		"image": "/resources/images/sponsors/true-leadership.png",
+		"url": "https://www.true-leadership.com/",
+		"is-main": false
+	}
+]

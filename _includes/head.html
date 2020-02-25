@@ -1,0 +1,26 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="icon" href="/resources/images/page-icon.png"> -->
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/header.css">
+
+    <link rel="stylesheet" href="/style/404.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="stylesheet" href="/style/leden.css">
+    <link rel="stylesheet" href="/style/nieuws.css">
+    <link rel="stylesheet" href="/style/sponsoren.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/word-sponsor.css">
+    <!-- <link rel="stylesheet" href="/style/game.css"> -->
+
+    {% for style in page.ExtraStyles %}
+    <link rel="stylesheet" href="/style/{{style}}.css">
+    {% endfor %}
+    
+    <title>{{ page.title }} - {{ site.title }}</title>
+</head>

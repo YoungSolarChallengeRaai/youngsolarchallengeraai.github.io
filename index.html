@@ -1,30 +1,81 @@
 ---
+layout: base
+largeheader: true
 title: 'Home'
+ExtraStyles: ["sponsoren"]
 ---
 
 <div class="home">
-	<div class="page-front">
-		<h1 class="title">{{ site.title }}</h1>
-		<h3 class="sub-title">CSG Liudger Raai</h3>
-	</div>
 
-	{% include header.html %}
+    <p class="quote">Non scholae, sed vitae discimus</p>
+    <p class="sub-quote">"We leren niet voor school, maar voor het leven"</p>
+    <!-- INFO -->
+    <div class="info-containers">
+        <div class="container left">
+            <img src="/resources/images/stock/building.jpg" alt="Image">
+            <div class="content">
+                <h2><a href="/leden.html/">Wie zijn we?</a></h2>
+                <p>
+                    Wij zijn een jong en ambitieus team van negen leerlingen uit VWO 4 en 5 die willen laten zien dat duurzaamheid aantrekkelijk kan zijn. Met ons team willen we een bijdrage leveren aan een wereld waarin groene energie en duurzaamheid haalbaar is voor zowel jong als oud.
+                    Hierbij gaan we geen challenge uit de weg. 
+                    We gaan de uitdaging aan om met de deelname aan de Young Solarboat Challenge een eigen solarboat te bouwen, analyseren, promoten en racen om daarmee duurzaamheid zichtbaar te maken.
+                </p>
+            </div>
+        </div>
 
-	<div class="page-content">
-		{% for post in site.posts %}
-		{% if post.path contains 'home' %}
-		<div class="section">
-			<a href="{{ post.url }}">
-				<h2>{{ post.title }}</h2>
-			</a>
-			{% unless post.sub-title == nil %}
-			<h3>{{ post.sub-title }}</h3>
-			{% endunless %}
-			<div class="content">
-				<p>{{ post.content }}</p>
-			</div>
-		</div>
-		{% endif %}
-		{% endfor %}
-	</div>
+        <div class="container right">
+            <img src="/resources/images/stock/itanks.jpg" alt="Image">
+            <div class="content">
+                <h2>Races</h2>
+                <p>
+                    Met de solarboat gaan we natuurlijk ook meedoen aan wedstrijden. In 2020 doen er wel bijna 40 teams mee aan de Young Solar Challenge! Een raceweekend ziet er als volgt uit: op de vrijdag kom je met je team aan en worden er verschillende checks gedaan aan de boten en de schippers. Dit zal het eerste weekend de meeste tijd in beslag nemen. Het echte racen begint op de tweede dag, de wedstrijddag, waarop twee wedstrijden worden gevaren: de lange en de korte afstand race. De eerste wedstrijd is in Akkrum op 22 en 23 mei, de tweede op 5 en 6 juni in Purmerend en de derde in Honselersdijk (Naaldwijk) op 19 en 20 juni. Soms wordt er ook een parade door de grachten gehouden van alle zonneboten.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="news">
+        <h3 class="sub-title"><a href="/nieuws/">Nieuws</a></h3>
+
+        <div class="news-feed">
+            {% for post in site.posts limit: 3 %}
+            <div class="news-post">
+                <a class="news-item" href="/nieuws.html#{{post.title}}">
+                    <img src="{{ post.thumbnail }}" alt="Image">
+                    <div class="content">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.summary }}</p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+
+    <!-- SPONSORS -->
+    <div class="sponsors">
+        <h3 class="sub-title"><a href="/sponsoren/">Onze Hoofdsponsoren</a></h3>
+
+        <div class="sponsor-logos">
+            {% for sponsor in site.data.sponsors %}
+                {% if sponsor.is-main %}
+                    {% if sponsor.url != nil %}
+                        <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"/>
+                        </a>
+                    {% else %}
+                        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+                    {% endif %} 
+                {% endif %} 
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="sponsors">
+        <div class="become-sponsor">
+            <h3>Ook sponsor worden als bedrijf of individu? <span><a href="/word-sponsor/" class="highlighted">Klik hier</a></span></h3>   
+        </div>
+    </div>
 </div>

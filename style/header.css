@@ -1,48 +1,114 @@
 .header {
-  background-color: var(--main-lighter);
-
-  width: 100%;
-  height: 100px;
-
-  display: flex;
-  justify-content: center;
-
-  text-align: center;
-
-  z-index: 2;
-  box-shadow: 0 0 30px #0004;
+	width: 100%;
 }
 
-.header-holder {
-  height: 100px;
+.large-header {
+	min-height: 300px;
+	height: 20vh;
+	max-height: 400px;
 }
 
-.header a {
-  margin: auto 40px;
-  font-size: 20pt;
-  font-weight: bold;
+.header .text-box > * {
+	color: var(--main-text-white);
 }
 
-.sticky {
-  top: 0;
-  position: fixed;
+.header .banner {
+	width: 100%;
+	height: 100%;
+	background-image: url(/resources/images/header-full.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
 }
 
-#header-target {
-  height: 0;
+.header .banner .text-box {
+	color: white;
+	opacity: 0.8;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
-@media only screen and (max-width: 650px) {
-  .header a {
-    font-size: 4vw;
-    margin: auto 10px;
-  }
+.header .banner .text-box h1 {
+	font-size: 3em;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0;
+}
 
-  .header {
-    height: 50px;
-  }
+.header .banner .text-box p {
+	font-size: 1.2em;
+	font-weight: 600;
+}
 
-  .header-holder {
-    height: 50px;
-  }
+.header .nav {
+	background-color: var(--main-light);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	height: 50px;
+
+	/* overflow: scroll; */
+	display: flex;
+	justify-content: center;
+
+	border-radius: 0 0 10px 10px;
+}
+
+.header .dropdown .nav .nav-item{
+	margin: 15px;
+	text-align: center;
+}
+
+.header .nav .nav-item > a {
+	margin: auto 40px;
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+.header .dropdown{
+	width: 100%;
+}
+
+.header .dropdown .dropdownbtn{
+	display: none;
+	width: 100%;
+	padding: 10px;
+	background-color: unset;
+	border-radius: 0 0 10px 10px;
+	border: unset;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width:500px){
+	.header .dropdown{
+		position: relative;
+		display: inline-block;
+	}
+
+	.header .dropdown .dropdownbtn{
+		display: block;
+	}
+
+	.header .dropdown .nav{
+		display: none;
+		position: absolute;
+		background-color: rgba(255, 255, 255);
+		height: 160px;
+	}
+
+	.header .dropdown img{
+		width: 12%;
+		float: left;
+	}
+
+	.header .dropdown:hover .nav{
+		display: block;
+	}
+
+	.header .dropdown .nav{
+		width:100%;
+		float: left;
+	}
 }

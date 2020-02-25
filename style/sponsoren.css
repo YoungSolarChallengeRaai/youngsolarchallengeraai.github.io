@@ -1,0 +1,52 @@
+.sponsors .become-sponsor {
+	margin-top: 60px;
+
+	font-size: 17pt;
+	text-align: center;
+}
+
+.sponsors .become-sponsor h3 {
+	margin: 25px 5%;
+	text-transform: unset;
+}
+
+.sponsors h1 {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.sponsors .sponsor-grid {
+	margin: 60px 20%;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+}
+
+.sponsors .sponsor-grid .sponsor-container {
+	width: 40%;
+}
+
+.sponsors .sponsor-grid .sponsor-container img {
+	width: 100%;
+}
+
+.sponsors .sponsor-grid .sponsor-container img:hover {
+	transform: scale(0.98);
+}
+
+@media only screen and (max-width: 600px){
+	.sponsors .sponsor-grid{
+		margin: 60px 5%;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.sponsors h1{
+		font-size: 18px;
+	}
+	.sponsors .sponsor-grid .sponsor-container{
+		width: 100%
+	}
+}
