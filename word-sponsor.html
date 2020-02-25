@@ -21,11 +21,11 @@ title: "Word Sponsor"
         <tr>
             <td>
                 <h1>{{package.name}}</h1>
-                <h2>dit wordt u vanaf €{{package.requirement}},-</h2> 
+                <h2>Dit wordt u vanaf €{{package.requirement}},-</h2> 
             </td>
             <td>
                 {% for r in package.return %}
-                <h3>-{{r}}</h3>
+                <h3>- {{r}}</h3>
                 {% endfor %}
             </td>
         </tr>
@@ -39,7 +39,7 @@ title: "Word Sponsor"
         <h1>{{package.name}}</h1>
         <h2>vanaf €{{package.requirement}},- krijgt u:</h2>
         {% for r in package.return %}
-            <h3>-{{r}}</h3>
+            <h3>- {{r}}</h3>
         {% endfor %}
     </div>
     {% endfor %}
