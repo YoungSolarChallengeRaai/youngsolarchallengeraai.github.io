@@ -47,15 +47,13 @@
 
 @media only screen and (max-width: 650px) {
 	.news-list {
-	  margin: 50px 5%;
+		margin: 50px 5%;
 	}
 }
-
 
 @media only screen and (max-width: 450px) {
 	.news-list {
 		margin: 50px 0;
-
 	}
 
 	.news-list .news-post {
