@@ -1,25 +1,26 @@
 [
-    {
-      "name": "Victron Energy",
-      "image": "/resources/images/sponsors/logos/victron_energy.png",
-      "url": "https://www.victronenergy.com/",
-      "is-main": true
-    },
-    {
-      "name": "Hanzehogeschool",
-      "image": "/resources/images/sponsors/logos/hanze.png",
-      "url": "https://www.hanze.nl/eng",
-      "is-main": true
-    },
-    {
-      "name": "NHL Stenden Hogeschool",
-      "image": "/resources/images/sponsors/logos/nhl.png",
-      "is-main": true
-    },
-    {
-      "name": "Ijntema BV",
-      "image": "/resources/images/sponsors/logos/ijntema_bv.png",
-      "url": "https://www.ijntema-bv.nl/",
-      "is-main": false
-    }
-  ]
+	{
+		"name": "Gemeente Smallingerland",
+		"image": "/resources/images/sponsors/gemeentesmallingerland.png",
+		"url": "https://www.smallingerland.nl/",
+		"is-main": true
+	},
+	{
+		"name": "Schuurman Elektrotechniek",
+		"image": "/resources/images/sponsors/schuurman.png",
+		"url": "https://www.schuurman-et.nl/",
+		"is-main": true
+	},
+	{
+		"name":"Conoship",
+		"image": "/resources/images/sponsors/conoship.png",
+		"url":"https://www.conoship.com/",
+		"is-main": false
+	},
+	{
+		"name":"True Leadership",
+		"image": "/resources/images/sponsors/true-leadership.png",
+		"url":"https://www.true-leadership.com/",
+		"is-main": false
+	}
+]
