@@ -26,10 +26,12 @@
 
 .sponsors .sponsor-grid .sponsor-container {
 	width: 40%;
+	max-width: 300px;
 }
 
 .sponsors .sponsor-grid .sponsor-container img {
 	width: 100%;
+	max-height: 300px;
 }
 
 .sponsors .sponsor-grid .sponsor-container img:hover {
