@@ -154,7 +154,10 @@
 	}
 
 	.home .info-containers .container img {
-		display: none;
+		float: left;
+		object-fit: cover;
+		max-height: 300px;
+		margin: 0 10% 20px 10%;
 	}
 
 	.home .info-containers .container .content {
