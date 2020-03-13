@@ -22,5 +22,11 @@
 		"image": "/resources/images/sponsors/true-leadership.png",
 		"url": "https://www.true-leadership.com/",
 		"is-main": false
+	},
+	{
+		"name": "veenstra BV",
+		"image": "/resources/images/sponsors/veenstrabv.jpg",
+		"url": "https://www.veenstrabv.nl/",
+		"is-main": false
 	}
 ]

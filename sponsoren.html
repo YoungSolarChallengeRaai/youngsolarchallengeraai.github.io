@@ -37,8 +37,31 @@ largeheader: true
         {% endfor %}
     </div>
 
+    
+    <div class="solar-pannels">
+        {% for pannel in  site.data.soloarcell %}
+        <div class="solar-pannel">
+            <h1>{{pannel.name}}</h1>
+            {% for row in pannel.cells %}
+            <div class="cell-row">
+                {% for colom in row %}
+                {% if colom == "-" %}
+                <img src="/resources/images/available-cell.png">
+                {% else%}
+                <img src="/resources/images/bought-cell.png" onmouseover="printperson('{{colom}}',this)">
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {%  endfor %}
+    </div>
+
     <div class="become-sponsor">
         <h3>Ook sponsor worden als bedrijf of individu? <span><a href="/word-sponsor" class="highlighted">Klik hier</a></span></h3>   
     </div>
-    <div class="gfm-embed" data-url="https://www.gofundme.com/f/young-solar-challenge-raai-team-helios/widget/small"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+
+    <div class="gfm-embed" data-url="https://www.gofundme.com/f/young-solar-challenge-raai-team-helios/widget/small"></div>
+    <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+    <script src="/scripts/sponsoren.js"></script>
 </div>
