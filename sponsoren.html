@@ -48,7 +48,10 @@ largeheader: true
                 {% if colom == "-" %}
                 <img src="/resources/images/available-cell.png">
                 {% else%}
-                <img src="/resources/images/bought-cell.png" onmouseover="printperson('{{colom}}',this)">
+                <div class="image-container">
+                    <img src="/resources/images/bought-cell.png">
+                    <span class="cell-info">{{colom}}</span>
+                </div>
                 {% endif %}
                 {% endfor %}
             </div>
