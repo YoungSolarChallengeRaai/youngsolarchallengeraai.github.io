@@ -147,10 +147,16 @@
 	font-size: 12pt;
 }
 
+.home .sponsors{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
 .home .gfm-embed{
 	max-width: 400px;
 	margin: auto;
-	margin-top: 40px;	
+	margin-top: 20px;
+	margin-bottom: 40px;	
 }
 
 @media only screen and (max-width: 1200px) {

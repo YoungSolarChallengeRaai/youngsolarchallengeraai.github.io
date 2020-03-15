@@ -1,7 +1,9 @@
-
-
 .race-elements{
     margin: 20px 15%;
+}
+
+.race-elements p{
+    font-size: 14pt;
 }
 
 .race-elements .intro-race-elements{
@@ -21,6 +23,7 @@
 .race-elements .race-element img{
     width: 60%;
     margin: 0px 2%;
+    border-radius: 20px;
 }
 
 .race-elements .race-element .content{

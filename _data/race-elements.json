@@ -39,13 +39,13 @@
         "name": "Match Race",
         "char": "G",
         "description": "",
-        "img": ""
+        "img": "/resources/images/races/match-race.png"
     },
     {
         "name": "Charles’ Special Race",
         "char": "H",
         "description": "",
-        "img": ""
+        "img": "/resources/images/races/charles-race.jpg"
     },
     {
         "name": "Speed Record Competition ",
