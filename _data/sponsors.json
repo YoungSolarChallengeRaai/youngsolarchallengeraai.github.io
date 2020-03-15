@@ -12,12 +12,6 @@
 		"is-main": true
 	},
 	{
-		"name": "Conoship",
-		"image": "/resources/images/sponsors/conoship.png",
-		"url": "https://www.conoship.com/",
-		"is-main": false
-	},
-	{
 		"name": "True Leadership",
 		"image": "/resources/images/sponsors/true-leadership.png",
 		"url": "https://www.true-leadership.com/",
