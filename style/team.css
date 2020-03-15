@@ -2,6 +2,11 @@
 	margin: 20px 20% 20px 20%;
 }
 
+.intro{
+	margin: 20px 20%;
+	font-size: 14pt;
+}
+
 .team-page {
 	margin: 50px 5% 0px 5%;
 	display: flex;
@@ -10,8 +15,8 @@
 }
 
 .team-page .team-member {
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
 	max-width: 300px;
 
 	display: flex;
@@ -53,7 +58,11 @@
 	margin-top: 10px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 500px) {
+	.intro{
+		margin: 20px 5%;
+	}
+
 	.team-page {
 		margin: 25px 0;
 	}

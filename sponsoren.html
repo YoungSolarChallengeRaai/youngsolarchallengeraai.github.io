@@ -1,7 +1,6 @@
 ---
 layout: base
 title: "Sponsoren"
-largeheader: true
 ---
 <div class="sponsors">
     
@@ -40,5 +39,29 @@ largeheader: true
     <div class="become-sponsor">
         <h3>Ook sponsor worden als bedrijf of individu? <span><a href="/word-sponsor" class="highlighted">Klik hier</a></span></h3>   
     </div>
-    <div class="gfm-embed" data-url="https://www.gofundme.com/f/young-solar-challenge-raai-team-helios/widget/small"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+
+    <h1 id="zonnecel-sponsoring">zonnecel sponsoring</h1>
+    <p>Wij gaan een boot bouwen die op zonne-energie vaart. Zonder zonnepanelen geen zonne-energie. Zo'n zonnepaneel bestaat zonnecellen. Om ons te helpen met het bouwen van de boot kunt u een of meerdere van deze zonnecellen kopen voor een tientje. Uw naam komt dan bij de bijbehorende zonnecel op de website te staan en u krijgt een leuke sleutelhanger van ons. Ons doel is om alle zonnecellen te verkopen. Wilt u ons helpen?
+    </p>
+    <div class="solar-pannels">
+        {% for pannel in  site.data.soloarcell %}
+        <div class="solar-pannel">
+            <h1>{{pannel.name}}</h1>
+            {% for row in pannel.cells %}
+            <div class="cell-row">
+                {% for colom in row %}
+                {% if colom == "-" %}
+                <img src="/resources/images/available-cell.png">
+                {% else%}
+                <div class="image-container">
+                    <span class="cell-info">{{colom}}</span>
+                    <img src="/resources/images/bought-cell.png">
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {%  endfor %}
+    </div>
 </div>

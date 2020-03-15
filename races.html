@@ -1,0 +1,31 @@
+---
+layout: base
+title: "races"
+---
+
+<div class="intro">
+    
+</div>
+
+<div class="race-elements">
+    <div class="intro-race-elements">
+        <h1>Race elementen</h1>
+        <p>Tijdens de races kan de organisatie kiezen om een van deze race elementen uit te laten voeren door de young solar teams. Deze elementen kunnen niet bij elke locatie uit worden gevoert tevens is er te weinig tijd om ze allemaal uit te voeren.</p>
+    </div>
+    
+    {% for race-element in site.data. race-elements %}
+    <div class="race-element">
+        <div class="title">
+            <h1>{{race-element.char}}. {{race-element.name}}</h1>
+        </div>
+        <div class="content">
+            {% if race-element.img != "" %}
+            <img src="{{race-element.img}}">
+            {% endif %}
+            {% if race-element.description != "" %}
+            <p>{{race-element.description}}</p>
+            {% endif %}
+        </div>
+    </div>   
+    {% endfor %}
+</div>
