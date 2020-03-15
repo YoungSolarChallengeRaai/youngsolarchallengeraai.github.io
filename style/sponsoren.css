@@ -39,10 +39,11 @@
 	transform: scale(0.98);
 }
 
-.sponsors .gfm-embed{
-	max-width: 400px;
-	margin: auto;
-	margin-bottom: 20px;	
+.sponsors p{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10px;
+	font-size: 12pt;
 }
 
 .sponsors .solar-pannels{
@@ -54,13 +55,15 @@
 
 .sponsors .solar-pannels .solar-pannel{
 	width: 600px;
+	margin: 10px;
+	margin-bottom: 30px;
 	text-align: center;
-	background-color: gray;
+	border-radius: 5px;
+	border-style: solid;
 }
 
 .sponsors .solar-pannels .solar-pannel h1{
 	margin: 0px;
-	color: white;
 }
 
 .sponsors .solar-pannels .solar-pannel .cell-row img{
@@ -77,6 +80,27 @@
 	width: 100%;
 }
 
+.sponsors .solar-pannels .solar-pannel .cell-row .image-container img:hover{
+	transform: scale(0.95);
+}
+
+.sponsors .solar-pannels .solar-pannel .cell-row .image-container .cell-info{
+	visibility: hidden;
+	width: 100px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+
+	position: absolute;
+	z-index: 1;
+}
+
+.sponsors .solar-pannels .solar-pannel .cell-row .image-container:hover .cell-info{
+	visibility: visible;
+}
+
 .sponsors .solar-pannels .solar-pannel .cell-row .image-container .cell-info::after{
 	content: "";
 	position: absolute;
@@ -88,26 +112,8 @@
 	border-color: black transparent transparent transparent;
 }
 
-.sponsors .solar-pannels .solar-pannel .cell-row .image-container:hover .cell-info{
-	visibility: visible;
-}
-
-.sponsors .solar-pannels .solar-pannel .cell-row img:hover{
-	transform: scale(0.95);
-}
-
-
-.cell-info{
-	visibility: hidden;
-	width: 120px;
-	background-color: black;
-	color: #fff;
-	text-align: center;
-	padding: 5px 0;
-	border-radius: 6px;
-
-	position: absolute;
-	z-index: 1;
+.image-container span{
+	font-size: 12pt;
 }
 
 @media only screen and (max-width: 600px) {
@@ -117,10 +123,31 @@
 }
 
 @media only screen and (max-width: 800px) {
-	.sponsors h1 {
+	/* .sponsors h1 {
 		font-size: 18px;
-	}
+	} */
 	.sponsors .sponsor-grid .sponsor-container {
 		width: 100%;
+	}
+
+	.sponsors .solar-pannels .solar-pannel{
+		width:95%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.sponsors .solar-pannels .solar-pannel .cell-row img{
+		width:15%;
+	}
+	
+	.sponsors .solar-pannels .solar-pannel .cell-row .image-container{
+		width: 15%;
+	}
+}
+
+@media only screen and (min-width: 1600px){
+	.sponsors .solar-pannels{
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 }

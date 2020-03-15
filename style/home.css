@@ -147,6 +147,12 @@
 	font-size: 12pt;
 }
 
+.home .gfm-embed{
+	max-width: 400px;
+	margin: auto;
+	margin-top: 40px;	
+}
+
 @media only screen and (max-width: 1200px) {
 	.home .info-containers .container {
 		flex-direction: column;
