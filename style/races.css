@@ -1,0 +1,32 @@
+
+
+.race-elements{
+    margin: 20px 15%;
+}
+
+.race-elements .intro-race-elements{
+    margin: 10px 5% 0px 5%;
+}
+
+.race-elements .race-element{
+    margin: 20px 0px;
+}
+
+.race-elements .race-element .title{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.race-elements .race-element img{
+    width: 60%;
+    margin: 0px 2%;
+}
+
+.race-elements .race-element .content{
+    box-shadow: 20px rgba(0, 0, 0, 0.4);
+    margin: 0px 2%;
+    padding: 10px 5%;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(170, 170, 170, 0.4);
+}

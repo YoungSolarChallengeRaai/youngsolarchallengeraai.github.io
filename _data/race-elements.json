@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Sprint Competition",
+        "char": "A",
+        "description": "zo snel mogelijk een bepaalde afstand",
+        "img": ""
+    },
+    {
+        "name": "Endurance Competition",
+        "char": "B",
+        "description": "",
+        "img": ""
+    },
+    {
+        "name": "Time Trial",
+        "char": "C",
+        "description": "",
+        "img": ""
+    },
+    {
+        "name": "Top Speed Competition",
+        "char": "D",
+        "description": "",
+        "img": ""
+    },
+    {
+        "name": "Stage(s)",
+        "char": "E",
+        "description": "",
+        "img": ""
+    },
+    {
+        "name": "Slalom Competition",
+        "char" : "F",
+        "description": "",
+        "img":"/resources/images/races/slalom.jpg"
+    },
+    {
+        "name": "Match Race",
+        "char": "G",
+        "description": "",
+        "img": ""
+    },
+    {
+        "name": "Charles’ Special Race",
+        "char": "H",
+        "description": "",
+        "img": ""
+    },
+    {
+        "name": "Speed Record Competition ",
+        "char": "I",
+        "description": "",
+        "img": ""
+    }
+]
