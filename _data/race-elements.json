@@ -44,14 +44,13 @@
     {
         "name": "Charles’ Special Race",
         "char": "H",
-        "description": "H. Charles' Special Race
-Ook hier varen de boten een parcours (zie afbeelding). De boten races in tweetallen tegen elkaar. De boot die als eerste over de finishlijn komt heeft gewonnen. De uiteindelijke winnaar kan bepaald worden via twee verschillende manieren. De eerste manier is via een knock-out competitie waarbij de eerste ronde getimed wordt en op basis daarvan een wedstrijdschema wordt opgesteld met 29 of 16 teams. Bij de tweede manier worden de tweetallen voor de knock-out competitie gemaakt aan de hand van een voorafgaande race. In de race wint de boot die als eerste over de finish komt. Als een boot een andere boot inhaalt wint de boot die de andere boot heeft ingehaald meteen en gaat door naar de volgende ronde van de knock-out. ????",
+        "description": "H. Charles' Special Race Ook hier varen de boten een parcours (zie afbeelding). De boten races in tweetallen tegen elkaar. De boot die als eerste over de finishlijn komt heeft gewonnen. De uiteindelijke winnaar kan bepaald worden via twee verschillende manieren. De eerste manier is via een knock-out competitie waarbij de eerste ronde getimed wordt en op basis daarvan een wedstrijdschema wordt opgesteld met 29 of 16 teams. Bij de tweede manier worden de tweetallen voor de knock-out competitie gemaakt aan de hand van een voorafgaande race. In de race wint de boot die als eerste over de finish komt. Als een boot een andere boot inhaalt wint de boot die de andere boot heeft ingehaald meteen en gaat door naar de volgende ronde van de knock-out.",
         "img": "/resources/images/races/charles-race.jpg"
     },
     {
         "name": "Speed Record Competition ",
         "char": "I",
-        "description": "",
+        "description": "De boten varen één voor één een bepaalde afstand. De organisatie kan kiezen uit de volgende afstanden:<br>- 231,5 m (1/8 zeemijl)<br>- 402,25 m (1/4 mijl)<br>- 100 m<br>- 250 m<br>- 300 m<br>- 500 m<br>Alle teams krijgen een of meerdere pogingen. De snelst gemeten tijd telt. Het team dat de snelste tijd neerzet wint.",
         "img": ""
     }
 ]

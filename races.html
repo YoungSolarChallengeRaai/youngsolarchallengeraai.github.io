@@ -10,7 +10,8 @@ title: "races"
 <div class="race-elements">
     <div class="intro-race-elements">
         <h1>Race elementen</h1>
-        <p>Tijdens de races kan de organisatie kiezen om een van deze race elementen uit te laten voeren door de young solar teams. Deze elementen kunnen niet bij elke locatie uit worden gevoert tevens is er te weinig tijd om ze allemaal uit te voeren.</p>
+        <p>In een raceweekend worden een bepaald aantal verschillende races gevaren. Per raceweekend wordt bepaald de organisatie welke verschillende race-elementen er dat weekend gevaren gaan worden. De organisatie kiest één of meerdere van deze race-elementen. Per locatie verschilt het aantal en de vorm van de race-elementen. In totaal gaan we drie raceweekenden varen. Het eerste raceweekend is op 22 en 23 mei in Akkrum; het tweede is op 5 en 6 juni in Purmerend; het derde is op 19 en 20 juni in Honselersdijk (Naaldwijk).
+        </p>
     </div>
     
     {% for race-element in site.data. race-elements %}
@@ -19,11 +20,11 @@ title: "races"
             <h1>{{race-element.char}}. {{race-element.name}}</h1>
         </div>
         <div class="content">
-            {% if race-element.img != "" %}
-            <img src="{{race-element.img}}">
-            {% endif %}
             {% if race-element.description != "" %}
             <p>{{race-element.description}}</p>
+            {% endif %}
+            {% if race-element.img != "" %}
+            <img src="{{race-element.img}}">
             {% endif %}
         </div>
     </div>   
