@@ -1,56 +1,56 @@
-[
+﻿[
     {
         "name": "Sprint Competition",
         "char": "A",
-        "description": "zo snel mogelijk een bepaalde afstand",
+        "description": "Bij een Sprint Competition moet er zo snel mogelijk een bepaalde afstand gevaren worden. Bij dit race-element zijn ook weer drie verschillende varianten in hoe de competitie gevaren kan worden. Bij de eerste variant vaart elk team één of meer sprints en de sprint met de beste tijd telt. Degene met de snelste tijd wint. Bij de tweede variant varen alle teams eerst één sprint. Op basis daarvan wordt een wedstrijdschema gemaakt voor de knock-out competitie. De derde variant sprint iedereen tegen elkaar en wint uiteindelijk degene wie de meeste sprints heeft gewonnen.",
         "img": ""
     },
     {
         "name": "Endurance Competition",
         "char": "B",
-        "description": "",
+        "description": "Bij dit onderdeel start één teamlid als hardloper. Alle hardlopers starten tegelijkertijd. Als hardloper krijg je een stokje die je zo snel mogelijk naar je eigen boot rennen. De boot wordt vastgehouden voor een teamlid. Als dat teamlid het stokje vast heeft mag de boot gaan varen. Met de boot moet je daarna in een bepaalde tijd zo veel mogelijk rondjes van een bepaalde afstand varen.",
         "img": ""
     },
     {
         "name": "Time Trial",
         "char": "C",
-        "description": "",
+        "description": "Bij een Time Trial wordt een vaste route gevaren. Het is de bedoeling om die route zo snel mogelijk te varen. Bij dit race-element zijn er twee verschillende manieren om te starten. Of alle boten starten om de minuut of elke team moet weer een hardloper aanwijzen die eerst een stuk moet rennen voordat de boot mag starten. Ook is het mogelijk dat je de race binnen een bepaalde tijd moet varen. Als je niet binnen die tijd finished krijg je een DNF score (Did not finished).",
         "img": ""
     },
     {
         "name": "Top Speed Competition",
         "char": "D",
-        "description": "",
+        "description": "Bij een Top Speed Competition moeten de boten in een rechte lijn een zo hoog mogelijke snelheid te halen. De teams krijgen één of meerdere kansen om een zo hoog mogelijke snelheid te bereiken. De hoogst gemeten waarde tel.",
         "img": ""
     },
     {
         "name": "Stage(s)",
         "char": "E",
-        "description": "",
+        "description": "Een Stage is een race-element waarbij een route moet worden gevaren tussen één of meerdere locaties. De winnaar is het team dat de stage het snelst aflegt. Het is mogelijk dat op tussen bepaalde punten van de route en een snelheidslimiet geldt. Als de team zich daar niet aan houden kunnen ze een tijdstraf krijgen of gediskwalificeerd worden. Ook hier is het mogelijk dat je de race binnen een bepaalde tijd moet varen. Als je niet binnen die tijd finished krijg je een DNF score (Did not finished).",
         "img": ""
     },
     {
         "name": "Slalom Competition",
         "char" : "F",
-        "description": "",
+        "description": "Elk team krijg één of meerdere pogingen om een slalom tussen boeien zo snel mogelijk af te leggen. De snelst gemeten waarde telt in het geval dat de teams meerdere pogingen krijgen. Als je een boei overslaat of raakt worden er drie seconden bij je tijd opgeteld. Het aantal boeien kan per race verschillen.",
         "img":"/resources/images/races/slalom.jpg"
     },
     {
         "name": "Match Race",
         "char": "G",
-        "description": "",
+        "description": "In een Match Race moet een uitgezet parcour gevaren worden (zie afbeelding). De boten racen in tweetallen tegen elkaar. De boot die als eerste over de finishlijn komt heeft gewonnen. De uiteindelijke winnaar kan bepaald worden met een knock-out competitie of een round robin.",
         "img": "/resources/images/races/match-race.png"
     },
     {
         "name": "Charles’ Special Race",
         "char": "H",
-        "description": "",
+        "description": "H. Charles' Special Race Ook hier varen de boten een parcours (zie afbeelding). De boten races in tweetallen tegen elkaar. De boot die als eerste over de finishlijn komt heeft gewonnen. De uiteindelijke winnaar kan bepaald worden via twee verschillende manieren. De eerste manier is via een knock-out competitie waarbij de eerste ronde getimed wordt en op basis daarvan een wedstrijdschema wordt opgesteld met 29 of 16 teams. Bij de tweede manier worden de tweetallen voor de knock-out competitie gemaakt aan de hand van een voorafgaande race. In de race wint de boot die als eerste over de finish komt. Als een boot een andere boot inhaalt wint de boot die de andere boot heeft ingehaald meteen en gaat door naar de volgende ronde van de knock-out.",
         "img": "/resources/images/races/charles-race.jpg"
     },
     {
         "name": "Speed Record Competition ",
         "char": "I",
-        "description": "",
+        "description": "De boten varen één voor één een bepaalde afstand. De organisatie kan kiezen uit de volgende afstanden:<br>- 231,5 m (1/8 zeemijl)<br>- 402,25 m (1/4 mijl)<br>- 100 m<br>- 250 m<br>- 300 m<br>- 500 m<br>Alle teams krijgen een of meerdere pogingen. De snelst gemeten tijd telt. Het team dat de snelste tijd neerzet wint.",
         "img": ""
     }
 ]
