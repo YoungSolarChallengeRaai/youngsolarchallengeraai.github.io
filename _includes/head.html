@@ -7,18 +7,7 @@
     <link rel="stylesheet" href="/style/footer.css">
     <link rel="stylesheet" href="/style/header.css">
 
-    <link rel="stylesheet" href="/style/404.css">
-    <link rel="stylesheet" href="/style/footer.css">
-    <link rel="stylesheet" href="/style/header.css">
-    <link rel="stylesheet" href="/style/home.css">
-    <link rel="stylesheet" href="/style/team.css">
-    <link rel="stylesheet" href="/style/nieuws.css">
-    <link rel="stylesheet" href="/style/sponsoren.css">
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/word-sponsor.css">
-    <link rel="stylesheet" href="/style/races.css">
-
-    {% for style in page.extrastyle %}
+    {% for style in page.styles %}
         <link rel="stylesheet" href="/style/{{style}}.css">
     {% endfor %}
     
