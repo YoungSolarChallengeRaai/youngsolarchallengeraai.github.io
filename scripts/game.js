@@ -1,28 +1,40 @@
-const header = document.getElementsByClassName('header')[0];
+let map;
+let terain;
+
+function preload(){
+	map = loadImage("/resources/images/maps/Naamloos.png")
+}
 
 function setup() {
-	createCanvas(header.offsetWidth, windowHeight - header.offsetHeight - 100);
-	document.getElementsByClassName('page-content')[0].append(document.getElementById('defaultCanvas0'));
+	createCanvas(windowWidth,windowHeight);
+	terain = new Terain(map);
+}
+
+function windowResized(){
+	resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(255);
-	stroke(0);
-	strokeWeight(5);
-	translate(width / 2, height / 2);
-	point(0, 0);
-
-	dash();
+	background(76, 160, 245);
+	image(map,0,0);
 }
 
-function windowResized() {
-	resizeCanvas(header.offsetWidth, windowHeight - header.offsetHeight - 100);
-}
+function Terain(m){
+	this.map=m;
+	this.boeis = [];
+	
+	this.map.loadPixels();
+	for (let x = 0; x < this.map.height; x++){
+		for(let y = 0; y < this.map.width; y++){
+			console.log(this.map.get(x,y));
+			console.log(color(0))
+			if(this.map.get(x,y) == [0,0,0,255]){
+				console.log(x,y, "jeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeey");
+			}
+		}
+	}
 
-function boat() {}
+	this.display = function(){
 
-function dash() {
-	fill(120);
-	stroke(1);
-	rect(-width / 2, height / 2 - 100, width, 100);
+	}
 }
