@@ -2,7 +2,7 @@
 layout: base
 largeheader: true
 title: 'Home'
-extrastyle: ["sponsoren"]
+styles: ["home","sponsoren"]
 ---
 
 <div class="home">
@@ -45,7 +45,7 @@ extrastyle: ["sponsoren"]
 
     <!-- NEWS -->
     <div class="news">
-        <h3 class="sub-title"><a href="/nieuws">Nieuws</a></h3>
+        <h2 class="sub-title"><a href="/nieuws">Nieuws</a></h2>
 
         <div class="news-feed">
             {% for post in site.posts limit: 3 %}
@@ -65,7 +65,7 @@ extrastyle: ["sponsoren"]
 
     <!-- SPONSORS -->
     <div class="sponsors">
-        <h3 class="sub-title"><a href="/sponsoren">Onze Hoofdsponsoren</a></h3>
+        <h2 class="sub-title"><a href="/sponsoren">Onze Hoofdsponsoren</a></h2>
 
         <div class="sponsor-logos">
             {% for sponsor in site.data.sponsors %}
@@ -80,9 +80,6 @@ extrastyle: ["sponsoren"]
                 {% endif %} 
             {% endfor %}
         </div>
-    </div>
-
-    <div class="sponsors">
         <div class="become-sponsor">
             <h3>Ook sponsor worden als bedrijf of individu? <span><a href="/word-sponsor" class="highlighted">Klik hier</a></span></h3>   
         </div>
