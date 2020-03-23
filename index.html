@@ -3,6 +3,7 @@ layout: base
 largeheader: true
 title: 'Home'
 styles: ["home","sponsoren"]
+scripts: ["https://www.gofundme.com/static/js/embed.js"]
 ---
 
 <div class="home">
@@ -69,15 +70,15 @@ styles: ["home","sponsoren"]
 
         <div class="sponsor-logos">
             {% for sponsor in site.data.sponsors %}
-                {% if sponsor.is-main %}
-                    {% if sponsor.url != nil %}
-                        <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
-                            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"/>
-                        </a>
-                    {% else %}
-                        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
-                    {% endif %} 
-                {% endif %} 
+            {% if sponsor.is-main %}
+            {% if sponsor.url != nil %}
+            <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"/>
+            </a>
+            {% else %}
+            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+            {% endif %} 
+            {% endif %} 
             {% endfor %}
         </div>
         <div class="become-sponsor">
@@ -85,8 +86,5 @@ styles: ["home","sponsoren"]
         </div>
     </div>
 
-    <div class="gfm-embed" data-url="https://www.gofundme.com/f/young-solar-challenge-raai-team-helios/widget/small"></div>
+    <div class="gfm-embed" data-url="https://www.gofundme.com/f/young-solar-challenge-raai-team-helios/widget/small">
 </div>
-
-
-<script defer src="https://www.gofundme.com/static/js/embed.js"></script>

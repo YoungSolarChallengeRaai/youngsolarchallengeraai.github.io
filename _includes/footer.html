@@ -9,4 +9,8 @@
             <p>@young_solarboat_raai</p>
         </a>
     </div>
+
+    {% for script in page.scripts %}
+    <script src="{{script}}"></script>
+    {% endfor %}
 </div>
