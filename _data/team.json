@@ -2,7 +2,7 @@
 	{
 		"name": "Allison Han van der Spoel",
 		"age": 16,
-		"class": "VWO 5",
+		"class": "VWO 6",
 		"function": "PR / Sponsering",
 		"picture": "/resources/images/team/allison.jpg",
 		"description": "Mijn twee grootste hobby’s zijn voetballen en piano spelen. Daarnaast hou ik heel erg van reizen en avontuur, zoals bijvoorbeeld de Young Solar Challenge! Ik was meteen enthousiast toen ik hoorde dat onze school hieraan mee zou gaan doen en heb me ook meteen aangemeld, om het avontuur aan te gaan, om te leren hoe zo’n project in zijn werk gaat en natuurlijk om een supergave solarboat te bouwen."
@@ -10,7 +10,7 @@
 	{
 		"name": "Bauke Westendorp",
 		"age": 16,
-		"class": "VWO 4",
+		"class": "VWO 5",
 		"function": "Webdeveloper / Analyse",
 		"picture": "/resources/images/team/bauke.jpg",
 		"description": "Sinds ik jong ben, heb ik altijd een intresse voor techniek gehad, en toen ik op school hoorde dat er een solarboat team werd opgericht, meldde ik me direct aan. De laatste jaren ben ik veel bezig met programmeren, en zag ik mijn kans bij het team om te helpen met analyse en het maken van deze website. Gezien je op school slecht leert in een daadwerkelijk team te werken leek mij dit een geweldige kans!"
@@ -26,7 +26,7 @@
 	{
 		"name": "Hidde Veenstra",
 		"age": 15,
-		"class": "VWO 4",
+		"class": "VWO 5",
 		"function": "Bootbouw / Elektra",
 		"picture": "/resources/images/team/hidde.jpg",
 		"description": "Ik doe mee aan de Young Solar challenge omdat ik het een super gaaf project vind en altijd al wat wilde leren over hoe je een boot moet bouwen. Ook doe ik mee omdat ik geïnteresseert ben in elektra techniek en er nog veel over wilde leren. Verder doe ik nog atletiek met als favoriete deel hardlopen."
@@ -34,23 +34,15 @@
 	{
 		"name": "Hielke van der Wal",
 		"age": 17,
-		"class": "VWO 5",
+		"class": "VWO 6",
 		"function": "Webdeveloper / Allrounder",
 		"picture": "/resources/images/team/hielke.jpg",
 		"description": "Een paar maanden geleden kwam er op onze mededelingen site het bericht over de solarboot te staan. Je kon je opgeven voor het avontuur. Natuurlijk was ik geïnteresseerd. Ik ben naar het Liudger gekomen door het technasium al bleek dat toch theoretischer dan ik had verwacht, daarom leek het mij heel leuk om te doen. Dit project heeft veel praktische aanpak die ik vaak mis op het VWO. Nu doe ik enthousiast mee aan dit project."
 	},
 	{
-		"name": "Klaas Peereboom",
-		"age": 16,
-		"class": "VWO 4",
-		"function": "Bootbouw / Elektra",
-		"picture": "/resources/images/team/klaas.jpg",
-		"description": "Ik doe mee aan Young Solar omdat het me een flinke uitdaging leek. Ook hoop ik zo meer kennis te vergaren. Mijn taak in het team is bouwen en het aanleggen van de techniek. Mijn hobby is het opknappen en restaureren van klassieke Benelli brommer's en motoren uit de jaren zestig."
-	},
-	{
 		"name": "Maloe Dijkstra",
 		"age": 16,
-		"class": "VWO 5",
+		"class": "VWO 6",
 		"function": "PR / Analyse",
 		"picture": "/resources/images/team/maloe.jpg",
 		"description": "Ik doe mee met de Young Solar Challenge omdat ik het leuk vind om in de praktijk bezig te zijn met wat je leert uit boeken. In mijn vrije tijd ben ik graag met scouting bezig. Dat doe ik al vanaf mijn vijfde. Mijn fantasie is groot, daarom lees ik erg graag boeken en teken ik veel."
@@ -58,8 +50,8 @@
 	{
 		"name": "Nils Thalen",
 		"age": 16,
-		"class": "VWO 4",
-		"function": "Elektra / Bootbouw",
+		"class": "VWO 5",
+		"function": "Elktra / Bootbouw",
 		"picture": "/resources/images/team/nils.jpg",
 		"description": "Ik zeil en mountainbike graag in mijn vrije tijd. Ook speel ik graag gitaar. Toen ik hoorde dat ik me kon opgeven voor deze challenge, ben ik meteen gaan mailen. De Young Solar Challenge leek mij een heel leuk project waar je veel kennis van kan opdoen. Ik denk dat het project ook een goed begin is voor de studie Advanced Technology, die ik als ik vwo afgerond heb wil gaan volgen."
 	},
